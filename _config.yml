@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: mytranng
+title: My Tran
 email: mytran1109@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I express my adulting journey and emotions through this blog, as it serves 
@@ -26,13 +26,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   I hope that by doing so, it provides readers with valuable insights.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username: iammytran
+linkedin_username: mynguyentuctran
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,5 +59,3 @@ header_pages:
   - projects.md
   - blog.md
   - list100.md
-  - archive.md
-  - about.md
